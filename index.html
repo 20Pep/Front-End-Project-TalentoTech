@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,11 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="nav-bar">
@@ -23,24 +27,54 @@
         </nav>
     </header>
     <main>
-
-        <div id="Home" class="Home">
-            <h1 class="homeItem">Hola, Soy Pedro Espejo</h1>
-            <h2 class="homeItem">Fullstack .NET Developer</h2>
-            <a href="/assets/PedroEspejoParianiCV.pdf" download="PedroEspejoPariani-CV" class="homeItem">CV</a>
+        <div class="width">
+            <div id="Home"class="Home">
+                <h1 class="homeItem">Hola, Soy Pedro Espejo</h1>
+                <h2 class="homeItem"><span class="DiferenteColor">Fullstack .NET Developer</span></h2>
+                <a href="assets/PedroEspejoParianiCV.pdf" download class="download-btn">Mira mi CV</a>
+            </div>
         </div>
-
-        <div id="About" class="About">
-            <h2>ABOUT</h2>       
+        <div class="width">
+            <div id="About" class="About">
+               <div class="about-text">
+                <h2 class="About-Item">Un poco sobre <span class="DiferenteColor">mi</span></h2>
+                </div>
+                <p class="About-Item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque incidunt atque possimus ab.
+                    Sunt, magnam
+                    nemo hic magni beatae eius ut placeat sapiente sed soluta corrupti quo nihil laudantium deserunt.</p>
+                <img class="About-item" src="assets/IMG_20240708_161324350.jpg" alt="Pedro" height="400px">
+            </div>
         </div>
-
-        <div id="Projects" class="Projects" style="height: 1000px;">
-          
+        <div class="width">
+            <div id="Projects" class="Projects">
+                <H2>Projectos</H2>
+               <div class="total">
+                <div class="project-item">
+                    <h3>Pac-Man</h3>
+                    <p>
+                        Un projecto para la laboratorio 2 donde hago desde cero
+                        un minijuego de pac-man donde le añadi un nivel extra que 
+                        lo diferencia del juego original
+                    </p>
+                </div>
+                <div class="project-item">
+                    <h3>Gestion Turnos</h3>
+                    <p>
+                        Desarrollado en equipo como projecto final de laboratorio 3
+                        donde los medicos de una clinica pueden gestionar los turnos 
+                        que tienen con sus pacienes, tiene dos tipo de usarios y esta 
+                        conectado a una base de datos desarrollada por nosotros
+                    </p>
+                </div>
+            </div>
+            </div>
         </div>
-    </main>
+       
+        </main>
 
     <footer id="Contact" class="CONTACT">
         <p>copyright &copy; 2024</p>
     </footer>
 </body>
+
 </html>

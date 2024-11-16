@@ -19,10 +19,10 @@
         <nav class="nav-bar">
             <p>PEP</p>
             <ul>
-                <li><a href="#Home">HOME</a></li>
-                <li><a href="#About">ABOUT</a></li>
-                <li><a href="#Projects">PROJECTS</a></li>
-                <li><a href="#Contact">CONTACT</a></li>
+                <li><a href="#Home">INICIO</a></li>
+                <li><a href="#About">SOBRE MI</a></li>
+                <li><a href="#Projects">PROJECTOS</a></li>
+                <li><a href="#Contact">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -72,29 +72,30 @@
        
         </main>
 
-    <footer id="Contact" class="CONTACT">
-        <div class="contact-container" >
-            <form action="" class="contact-form">
-                <fieldset>
-                    <legend><b>contacto</b></legend>
-                    <div class="form-group">
-                    <label for="nombre">Nombre</label>
-                   <input type="text" id="" name="" size="" maxlength="25" required><br>
-                   </div>
-                   <div class="form-group">
-                   <label for="Correo">Correo</label>
-                   <input type="email" id="" name="" size="" maxlength="25" required>
-                   </div>
-                   <div class="form-group">
-                   <label for="comentarios">Escriba su consulta</label><br>
-                   <textarea name="" id="" cols="30" rows="10" placeholder="Escriba aqui su consulta "></textarea>
-                    </div>
-                </fieldset>
-                <input type="submit" value="Enviar Datos">
-            </form>
-        </div>
-        <p class="copyright">copyright &copy; 2024</p>
-    </footer>
+        <footer id="Contact" class="CONTACT">
+            <div class="contact-container">
+                <form action="https://formspree.io/f/mqakbvol" method="POST" class="contact-form">
+                    <fieldset>
+                        <legend><b>Contacto</b></legend>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" maxlength="50" required><br>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo</label>
+                            <input type="email" id="correo" name="correo" maxlength="50" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Escriba su consulta</label><br>
+                            <textarea id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Escriba aquí su consulta"></textarea>
+                        </div>
+                    </fieldset>
+                    <input type="submit" value="Enviar Datos">
+                </form>
+            </div>
+            <p class="copyright">copyright &copy; 2024</p>
+        </footer>
+        
 </body>
 
 </html>

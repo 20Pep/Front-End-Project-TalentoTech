@@ -92,16 +92,46 @@ body{
 }
 .project-item {
     max-width: 250px;
-    border: 1px solid gray; 
-    padding: 10px; 
-    border-radius: 5px; 
-    margin-bottom: 15px; 
-    transition: border-color 0.3s, border-width 0.3s; 
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s, border-width 0.3s;
+    position: relative;
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+}
+
+.project-item-content {
+    position: relative; /* Permite posicionar contenido dentro del contenedor */
+    z-index: 1; /* Asegura que el contenido esté detrás de los botones al hacer hover */
+}
+
+.project-item-buttons {
+    display: none; /* Oculta los botones por defecto */
+    /* Opcional: Añade un fondo semi-transparente */
+}
+
+.project-item:hover .project-item-buttons {
+    display: flex; /* Muestra los botones al hacer hover */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; /* Flexbox para centrar botones */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espaciado entre botones */
+    z-index: 2; /* Asegura que los botones estén encima del contenido */
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.project-item-buttons:hover{
+    
 }
 
 .project-item:hover {
-    border-color: dodgerblue; 
-    border-width: 1px; 
+    border-color: dodgerblue;
 }
 
 /*GENERAL*/

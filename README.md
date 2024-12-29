@@ -47,4 +47,4 @@ Este es mi proyecto final para el programa de Talento Tech Adultos, donde desarr
 ## Cómo Ejecutar el Proyecto
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/20Pep/Front-End-Project-TalentoTech.git

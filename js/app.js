@@ -46,10 +46,14 @@ function agregarAlCarrito(nombre, precio, productoKey) {
     // Obtener el producto específico
     const producto = productos[productoKey];
     
+    
     // Validar stock
     if (producto.stock <= 0) {
         alert('¡Producto agotado!');
         return;
+    }
+    else{
+        alert('Producto agregado al carrito');
     }
 
     // Obtener el carrito actual del localStorage

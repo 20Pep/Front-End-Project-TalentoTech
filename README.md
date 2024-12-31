@@ -17,6 +17,7 @@ Este es mi proyecto final para el programa de Talento Tech Adultos, donde desarr
    - Una lista de los proyectos más destacados en los que he trabajado, como:
      - **Pac-Man**: Un minijuego creado desde cero con características únicas.
      - **Gestión de Turnos**: Una aplicación desarrollada en equipo para la gestión de turnos en una clínica.
+     - Aqui podes añadirlos al carrito, apretar y apretando el boton de carrtio del nav te dirige a la pagina para que los veas añadidos en el carrito
 
 4. **Contacto**:
    - Un formulario funcional para que los usuarios puedan enviarme sus consultas o mensajes directamente desde el portafolio.
@@ -25,6 +26,7 @@ Este es mi proyecto final para el programa de Talento Tech Adultos, donde desarr
 - **Carrito de Compras Ficticio**:
   - Incluye una simulación básica de un carrito de compras con HTML, CSS y JavaScript.
   - Aunque no tiene relación directa con el portafolio, se agregó para cumplir con los requisitos finales del proyecto.
+  - Tambien podes añadirle un codigo de descuento por ej : 150FF 
 
 ## Tecnologías Utilizadas
 - **HTML**: Para estructurar el contenido del portafolio.

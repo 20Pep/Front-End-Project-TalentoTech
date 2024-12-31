@@ -22,7 +22,7 @@
             <ul>
                 <li><a href="#Home">INICIO</a></li>
                 <li><a href="#About">SOBRE MI</a></li>
-                <li><a href="#Projects">Productos</a></li>
+                <li><a href="#Projects">PRODUCTOS</a></li>
                 <li><a href="#Contact">CONTACTO</a></li>
                 <li><a href="/pages/CarritoCompra.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
             </ul>
@@ -63,8 +63,9 @@
                     </div>
                     <div class="project-item-buttons">
                         <button onclick="window.location.href='/pages/project1.html';" class="view-more">Ver más</button>
-                        <button class="add-cart"><i class="fa-solid fa-cart-shopping"></i></button>    
+                        <button onclick="agregarAlCarrito('Pac-Man', 800,'pacman')" class="add-cart"><i class="fa-solid fa-cart-shopping"></i></button>    
                     </div>
+                    
               </div>
                 <div class="project-item">
                    <div class="project-item-content">
@@ -78,9 +79,8 @@
                    </div>      
                     <div class="project-item-buttons">
                         <button onclick="window.location.href='/pages/project2.html';"class="view-more">Ver más</button>
-                       <button class="add-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                       <button onclick="agregarAlCarrito('Clinica', 1900,'clinica')" class="add-cart"><i class="fa-solid fa-cart-shopping"></i></button>
                     </div>   
-                   
                 </div>
             </div>
             </div>
@@ -112,8 +112,8 @@
             <p class="copyright">copyright &copy; 2024</p>
         </footer>
 
-        <script src="https://kit.fontawesome.com/3cf78ec217.js" crossorigin="anonymous"></script>
-        <script src="app.js"></script>
+            <script src="https://kit.fontawesome.com/3cf78ec217.js" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>
